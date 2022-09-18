@@ -9,3 +9,10 @@ Jupyter Notebooks with Experiments for DDIs Prediction and Plot creation to comp
 
 # Instructions
 
+The drugbank_experiments.ipynb file contains python code blocks for:
+1. DrugBank Dataset Extraction: The original dataset is extracted, augmented, filtered and, finally, stored in dataframe objects.
+2. Mol2Vec Experiment: mol2vec embeddings are produced in order to create positive and negative samples. The sample set is split into train. validation and test sets, and a simple Feed Forward neural network is used for training and testing.
+3. Node2Vec Experiment. NetworkX is used to create a graph, and similarly to Mol2Vec experiment we produce positive and negative sampeles and then proceed to train and test a NN.
+4. Hybrid Experiment.
+
+At the end of each experiment section, we provide code for plot creation.
